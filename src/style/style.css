@@ -753,6 +753,7 @@ section {
 }
 .offer .offer-item .offer-item__wrap:hover {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.49);
+  transform: translate(0, -10px);
 }
 .offer .offer-item .offer-item__wrap:hover a {
   color: #fff !important;
@@ -845,7 +846,7 @@ section {
 .hero:after {
   content: "";
   position: absolute;
-  width: calc(50% - 75px);
+  width: calc(50% - 100px);
   height: 100%;
   right: 0px;
   top: 25px;
