@@ -18,6 +18,9 @@
       }
     }
   }
+  hr {
+    margin: 50px 0 20px;
+  }
   .offer-item {
     padding: 15px;
     .offer-item__wrap {
@@ -48,12 +51,17 @@
         }
         a {
           color: #fff;
+          &:hover {
+            opacity: 1;
+            color: $red !important;
+          }
         }
       }
       svg {
         position: absolute;
         z-index: 1;
-        bottom: 0px;
+        bottom: -1px;
+        left: -1px;
       }
     }
   }

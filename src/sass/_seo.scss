@@ -3,6 +3,7 @@
     height: 200px;
     overflow: hidden;
     position: relative;
+    transition: all 0.3s;
     h1,
     h2,
     h3,
@@ -32,9 +33,15 @@
     left: 0;
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.01724439775910369) 100%);
+    transition: all 0.3s;
   }
-  .content.active {
-    height: 100%;
+  .seo-wraper.active {
+    .content {
+      height: auto;
+    }
+    .cover {
+      height: 0px;
+    }
   }
   .display-wrap {
     text-align: right;

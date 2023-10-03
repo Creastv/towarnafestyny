@@ -108,3 +108,17 @@ $('a[href*="#"]').click(function () {
 });
 
 AOS.init();
+let flag = true;
+const display = document.querySelector(".display");
+display.addEventListener("click", function (e) {
+  e.preventDefault();
+  document.querySelector("#seo").scrollIntoView();
+  if (flag == true) {
+    display.textContent = "Zwiń";
+    flag = false;
+  } else {
+    display.textContent = "Rozwiń";
+    flag = true;
+  }
+  document.querySelector(".seo-wraper").classList.toggle("active");
+});

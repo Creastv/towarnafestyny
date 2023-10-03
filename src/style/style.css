@@ -735,6 +735,9 @@ section {
     order: 3;
   }
 }
+.offer hr {
+  margin: 50px 0 20px;
+}
 .offer .offer-item {
   padding: 15px;
 }
@@ -769,16 +772,22 @@ section {
 .offer .offer-item .offer-item__wrap .content a {
   color: #fff;
 }
+.offer .offer-item .offer-item__wrap .content a:hover {
+  opacity: 1;
+  color: #aa0e12 !important;
+}
 .offer .offer-item .offer-item__wrap svg {
   position: absolute;
   z-index: 1;
-  bottom: 0px;
+  bottom: -1px;
+  left: -1px;
 }
 
 .seo .content {
   height: 200px;
   overflow: hidden;
   position: relative;
+  transition: all 0.3s;
 }
 .seo .content h1,
 .seo .content h2,
@@ -813,9 +822,13 @@ section {
   left: 0;
   background: rgb(255, 255, 255);
   background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.0172443978) 100%);
+  transition: all 0.3s;
 }
-.seo .content.active {
-  height: 100%;
+.seo .seo-wraper.active .content {
+  height: auto;
+}
+.seo .seo-wraper.active .cover {
+  height: 0px;
 }
 .seo .display-wrap {
   text-align: right;
