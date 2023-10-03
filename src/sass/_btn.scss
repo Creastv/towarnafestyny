@@ -1,0 +1,35 @@
+.btn {
+  padding: 10px 35px;
+  margin: 10px;
+  border-radius: 100px;
+  background: rgb(170, 14, 18);
+  background: linear-gradient(90deg, rgba(170, 14, 18, 1) 0%, rgba(213, 48, 43, 1) 100%);
+  color: #fff;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.3s;
+
+  &:hover {
+    background: rgb(170, 14, 18);
+    background: linear-gradient(267deg, rgba(170, 14, 18, 1) 0%, rgba(213, 48, 43, 1) 100%);
+    box-shadow: 0px 0px 0px 3px rgba($black, 0.1);
+  }
+  &:active {
+    background: rgb(170, 14, 18);
+    background: linear-gradient(267deg, rgba(170, 14, 18, 1) 0%, rgba(213, 48, 43, 1) 100%);
+    box-shadow: 0px 0px 0px 5px rgba($black, 0.19);
+  }
+}
+
+.icon {
+  display: inline-block;
+  //   align-items: center;
+  svg,
+  span {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+}

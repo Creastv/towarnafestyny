@@ -1,0 +1,63 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  color: $black200;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Baloo Chettan 2", cursive;
+  font-weight: 800;
+  color: $black;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding: 0;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: $black200;
+}
+b,
+strong {
+  color: $black;
+  font-weight: 700;
+}
+
+a {
+  color: $red;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.s-title {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 41px;
+    text-transform: uppercase;
+  }
+}
+
+.text-center {
+  text-align: center;
+}

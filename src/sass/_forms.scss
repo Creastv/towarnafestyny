@@ -1,0 +1,73 @@
+.kontakt {
+  // background-color: $grey;
+  background-image: url("../img/bg-form.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 200px 0 50px;
+  @media #{$xs} {
+    background-color: #f6f6f6;
+    padding: 50px 0 20px;
+  }
+}
+
+#contactForm {
+  .form-group {
+    display: flex;
+    gap: 20px;
+    @media #{$xs} {
+      flex-wrap: wrap;
+      gap: 0;
+    }
+    .col-full {
+      width: 100% !important;
+      margin-bottom: 20px;
+    }
+    .col,
+    .col-full {
+      width: 50%;
+      margin-bottom: 20px;
+      @media #{$xs} {
+        width: 100%;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 20px 15px;
+        border: 1px solid #b7b7b7;
+        border-radius: 10px;
+        background: #fff;
+      }
+      textarea {
+        height: 100px;
+      }
+    }
+    .col-1 {
+      width: 100%;
+      margin-bottom: 20px;
+      label {
+        font-size: 12px;
+      }
+    }
+    .btn-wrap {
+      text-align: center;
+      button {
+        transition: all 0.5s ease 0.1s;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0px 10px 20px 0px rgba(11, 48, 72, 0.2);
+        &:hover {
+          box-shadow: 0px 10px 20px 0px rgba(11, 48, 72, 0.5);
+        }
+        &:active {
+          box-shadow: 0px 10px 20px 0px rgba(11, 48, 72, 0);
+        }
+      }
+    }
+    .error-message {
+      color: red;
+      font-size: 12px;
+      padding: 3px;
+    }
+  }
+}

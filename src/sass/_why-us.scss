@@ -1,0 +1,22 @@
+.why-us {
+  .row {
+    .col-4 {
+      @media #{$sm} {
+        width: 50%;
+      }
+    }
+  }
+  .wu-item {
+    img {
+    }
+    h3 {
+      text-transform: uppercase;
+      font-size: 24px;
+      line-height: 1.1;
+      margin-bottom: 15px;
+    }
+    p {
+      line-height: 1.1;
+    }
+  }
+}
