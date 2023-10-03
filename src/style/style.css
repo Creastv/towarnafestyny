@@ -602,7 +602,7 @@ section {
 }
 @media only screen and (max-width: 768px) {
   .header__bottom ul li a {
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px 10px;
   }
 }
