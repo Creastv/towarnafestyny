@@ -579,6 +579,14 @@ section {
 .header__bottom .row {
   margin-bottom: 0;
 }
+.header__bottom nav.nav {
+  display: flex;
+  align-items: center;
+}
+.header__bottom nav.nav .lang-swicher {
+  padding: 10px;
+  display: block;
+}
 .header__bottom ul {
   margin: 0;
   padding: 0;
@@ -766,12 +774,19 @@ section {
 }
 .offer .offer-item .offer-item__wrap .content h3 {
   margin: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   font-size: 24px;
   color: #fff;
 }
+.offer .offer-item .offer-item__wrap .content p {
+  color: #fff;
+  font-size: 12px;
+  margin: 0;
+}
 .offer .offer-item .offer-item__wrap .content a {
   color: #fff;
+  margin-top: 10px;
+  display: block;
 }
 .offer .offer-item .offer-item__wrap .content a:hover {
   opacity: 1;
@@ -980,10 +995,14 @@ section {
   color: #fff;
 }
 .slider .item .content h2 {
-  margin: 10px 0;
+  margin: 5px 0;
+}
+.slider .item .content h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 .slider .item .content p {
-  font-size: 14px;
+  font-size: 12px;
 }
 .slider .item .content a {
   font-size: 14px;
@@ -1045,6 +1064,26 @@ section {
 }
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #3ef7f7 !important;
+}
+
+.thx {
+  padding: 100px 0;
+  text-align: center;
+}
+.thx .col {
+  width: 100%;
+}
+.thx h1 {
+  font-size: 41px;
+}
+.thx p {
+  font-size: 21px;
+}
+.thx svg {
+  width: 200px;
+}
+.thx svg path {
+  fill: green;
 }
 
 .points {

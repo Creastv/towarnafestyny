@@ -126,10 +126,14 @@
         color: #fff;
       }
       h2 {
-        margin: 10px 0;
+        margin: 5px 0;
+      }
+      h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
       }
       p {
-        font-size: 14px;
+        font-size: 12px;
       }
       a {
         font-size: 14px;
@@ -188,5 +192,25 @@
   }
   .swiper-pagination-bullet-active {
     background-color: #3ef7f7 !important;
+  }
+}
+
+.thx {
+  padding: 100px 0;
+  text-align: center;
+  .col {
+    width: 100%;
+  }
+  h1 {
+    font-size: 41px;
+  }
+  p {
+    font-size: 21px;
+  }
+  svg {
+    width: 200px;
+    path {
+      fill: green;
+    }
   }
 }
